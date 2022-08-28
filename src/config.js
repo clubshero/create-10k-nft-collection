@@ -55,11 +55,11 @@ const ROYALTY_ADDRESS = "0x3bd199Be299f993FDd79C3C39715d63e43809C3f"; // Address
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "Hidden Shero"; // Replace with what you want the generic titles to say.
-const GENERIC_DESCRIPTION = "Which shero will you get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC_TITLE = ""; // Replace with what you want the generic titles to say.
+const GENERIC_DESCRIPTION = ""; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = [
-  "https://ipfs.io/ipfs/bafkreihxrbpb5s7qlnyi2clrqeeaykg5yfgsw4jy2y5e7dhaisezys66ra",
+  "",
 ]; // Replace with your generic image(s). If multiple, separate with a comma.
 const REVEAL_PROMPT = true; // Set to false if you want to disable the prompt to confirm each reveal.
 const INTERVAL = 900000; // Milliseconds. This is the interval for it to check for sales and reveal the NFT. 900000 = 15 minutes.
