@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://sheroclub.com", // Replace with your website or remove this line if you do not have one.
+  external_url: "http://savvysheroclub.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -61,7 +61,7 @@ const GENERIC_DESCRIPTION = ""; // Replace with what you want the generic descri
 const GENERIC_IMAGE = [
   "",
 ]; // Replace with your generic image(s). If multiple, separate with a comma.
-const REVEAL_PROMPT = true; // Set to false if you want to disable the prompt to confirm each reveal.
+const REVEAL_PROMPT = false; // Set to false if you want to disable the prompt to confirm each reveal.
 const INTERVAL = 900000; // Milliseconds. This is the interval for it to check for sales and reveal the NFT. 900000 = 15 minutes.
 
 // Automatically set contract address if deployed using the deployContract.js script
