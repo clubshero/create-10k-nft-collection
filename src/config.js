@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "http://savvysheroclub.com", // Replace with your website or remove this line if you do not have one.
+  external_url: "http://sheroclub.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
