@@ -49,8 +49,8 @@ const CONTRACT_SYMBOL = 'SC';
 const CONTRACT_TYPE = 'erc721';
 const MINT_TO_ADDRESS = '0x3bd199Be299f993FDd79C3C39715d63e43809C3f';
 const CHAIN = 'rinkeby';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const ROYALTY_SHARE = 1500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x3bd199Be299f993FDd79C3C39715d63e43809C3f"; // Address that will receive the royalty
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = ""; // If you want to manually include it
