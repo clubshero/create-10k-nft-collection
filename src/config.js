@@ -43,7 +43,7 @@ const extraMetadata = {
 // NFTPort Info
 // ** REQUIRED **
 const AUTH = "f9932899-c008-47b4-b175-2990f2d3929f";
-const LIMIT = 2; // Your API key rate limit
+const LIMIT = 10; // Your API key rate limit
 const CONTRACT_NAME = 'Shero Club';
 const CONTRACT_SYMBOL = 'SC';
 const CONTRACT_TYPE = 'erc721';
